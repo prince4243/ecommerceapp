@@ -1,0 +1,80 @@
+{
+    "product":[
+        {"id": 1,
+         "name":" party wear shirt",
+         "category_id":5,
+         "decriptions":"description first for shirt",
+         "price":300,
+         "is_available":true,
+         "productImg":"http://localhost:4200/assets/shirt1.jpg",
+         "rating":4,
+         "review":150,
+         "vendor_name":"abc shop",
+         "waranty":1    
+    },
+    {"id": 2,
+         "name":" casual shirt",
+         "category_id":2,
+         "decriptions":"description second ",
+         "price":400,
+         "is_available":true,
+         "productImg":"http://localhost:4200/assets/shirt2.jpg",
+         "rating":4,
+         "review":150,
+         "vendor_name":"abc shop",
+         "waranty":1    
+    },
+    {"id": 3,
+         "name":" formal shirt",
+         "category_id":6,
+         "decriptions":"description third",
+         "price":350,
+         "is_available":true,
+         "productImg":"http://localhost:4200/assets/shirt3.jpg",
+         "rating":4,
+         "review":150,
+         "vendor_name":"abc shop",
+         "waranty":1    
+    },
+    {"id": 4,
+         "name":" party wear shirt",
+         "category_id":3,
+         "decriptions":"description fourth",
+         "price":200,
+         "is_available":true,
+         "productImg":"http://localhost:4200/assets/shirt4.jpg",
+         "rating":4,
+         "review":150,
+         "vendor_name":"abc shop",
+         "waranty":1    
+    },
+    {"id": 5,
+         "name":" coat paint",
+         "category_id":7,
+         "decriptions":"description fifth",
+         "price":700,
+         "is_available":true,
+         "productImg":"http://localhost:4200/assets/shirt5.jpg",
+         "rating":4,
+         "review":150,
+         "vendor_name":"abc shop",
+         "waranty":1    
+    }
+
+        
+    ],
+    "categories":[
+        {"id": 1,"categoryName": "Electronics" },
+        {"id": 2,"categoryName": "Men" },
+        {"id": 3,"categoryName": "Women" },
+        {"id": 4,"categoryName": "Home & Furniture" },
+        {"id": 5,"categoryName": "Baby & kids" }
+    ],
+    "comments":[
+        {"id": 1,"body": "some comment", "postId":1},
+        {"id": 2,"body": "some comment", "postId":1}
+    ],
+    "profile":{
+        "name": "typicode"
+    }
+}
